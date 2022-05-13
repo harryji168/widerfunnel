@@ -72,10 +72,10 @@
     
 }
 .value-propositions  .bg_dot {
-    position:fixed;
+    position:absolute;
     border-top: 10px dotted rgb(232, 232, 232);     
     z-index: -10;
-    top: 700px;
-    width: 46%;
+    top: 120px;
+    width: 60%;
     max-width: 885px;
 }
