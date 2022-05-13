@@ -505,8 +505,8 @@ height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"><
 <link rel="stylesheet" href="styles/tabs.css"  type="text/css" media="screen" />
 <section id="tabbable">
 	<div class="container">
-		<div class="tab">
-			<button class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen">Tab1</button>
+		<div class="tab" >
+			<button class="tablinks active" onclick="openCity(event, 'tab1')" id="defaultOpen">Tab1</button>
 			<button class="tablinks" onclick="openCity(event, 'tab2')">Tab2</button> 
 		</div>
 		
@@ -514,24 +514,50 @@ height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"><
 			<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
 			
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12">			 
 				<div class="row">
-				<div class="col-md-6 careers-page-hero-title-links_title">
-				<h3><img src="images/tab1-0.png">Header</h3>
-				<hr>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col-md-7">
-				<div class="careers-page-hero-title-links__editor-left">
-				<p>At Widerfunnel, work-life balance is a critical aspect of our culture. We want to make sure that even though we value your professional work, we also value giving you the time needed to develop your personal goals, recharge, or finally visit that country you’ve been dreaming of.</p>
-				</div>
-				</div>
-				<div class="col-md-5">
-				<div class="careers-page-hero-title-links__editor-right">
-				<h4>Build a life and a career at the<br>
-				same time.</h4>
-				</div>
+				<div class="col-md-6">  
+					<img src="images/tab1-0.png" width="100">						
+					<h3>Header</h3>					 
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et delore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et delore magna aliqua</p>
+					<h3>Chat with us -></h3>				 
+				</div> 
+				<div class="col-md-6" id="galley" > 
+					<div class="row">
+						<div class="gallery">
+							<a target="_blank" href="images/tab1-1.png">
+							<img src="images/tab1-1.png"  >
+							</a>
+						</div>
+						<div class="gallery">
+							<a target="_blank" href="images/tab1-2.png">
+							<img src="images/tab1-2.png"  >
+							</a>
+						</div>
+						<div class="gallery">
+							<a target="_blank" href="images/tab1-3.png">
+							<img src="images/tab1-3.png"   >
+							</a>
+						</div>
+					</div>
+					<div class="row">
+					  <div class="gallery">
+						<a target="_blank" href="images/tab1-4.png">
+						  <img src="images/tab1-4.png" >
+						</a>
+					  </div>
+					  <div class="gallery">
+						<a target="_blank" href="images/tab1-5.png">
+						  <img src="images/tab1-5.png" >
+						</a>
+					  </div>
+					  <div class="gallery">
+						<a target="_blank" href="images/tab1-6.png">
+						  <img src="images/tab1-6.png"  >
+						</a>
+					  </div>
+					</div>			 
 				</div>
 				</div>
 				</div>
@@ -542,17 +568,22 @@ height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"><
 		<div id="tab2" class="tabcontent">
 			<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
 			<div class="row">
-				<div class="col-md-6 careers-page-hero-title-links_title">
-				<h3><img src="images/tab2-1.png">Header</h3>				 
+				<div class="col-md-8">
+					<img src="images/tab2-1.png" width="100"><h3>Header</h3>	
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et delore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et delore magna aliqua</p>							 
+					</div> 
+				<div class="col-md-4">
+					<button id="free-button">Try for free 
+						<span class="arrow-5"></span>
+					</button>					 			 
 				</div>
-			</div>
-			<p>Paris is the capital of France.</p> 
+			</div> 
 		</div>
 		
 	 
 	</div>
 </section>
-<script type='text/javascript' src='scripts/tabs.js' id='widerfunnel-site-js-js' defer></script>
+<script type='text/javascript' src='scripts/tabs.js' id='tabs' defer></script>
 
 <!---End Part 3 assessment-->
 <section id="thebasics" class="careers-page-hero-title-links">
